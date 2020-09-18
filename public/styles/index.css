@@ -10,7 +10,12 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: var(--gClaro);
 
+}
+
+#amarillo{
+    background-color: var(--Amarillo);
 }
 
 p{
@@ -27,11 +32,18 @@ font-size: 12px;
 }
 
 .descuentos{
+  color: var(--verde);
   font-size: 16px;  
+  font-weight: normal;
 }
 
 .descripciones{
     font-size: 16px;  
+    color: var(--gOscuro);
+    
   }
-  
+
+  article{
+      background-color: white;
+  }
 
