@@ -9,6 +9,13 @@ let file= path.resolve('public/vistas/index.html')
 
 })
 
+app.get('/registro', function(req,res){
+
+    let file= path.resolve('public/vistas/registro.html')
+        res.sendFile(file)
+    
+    })
+
 
 app.get('*', function(req,res){
 
@@ -22,3 +29,5 @@ if(req.url.includes('.')){
 app.listen(3000, () =>{
     console.log('escuchando en puerto 3000')
 })
+
+

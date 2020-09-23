@@ -47,3 +47,14 @@ font-size: 12px;
       background-color: white;
   }
 
+.fa-truck{
+color: var(--verde)
+  }
+
+  footer .fas{
+      color: var(--Celeste);
+  }
+
+ul .fas{
+    display: inline-block;
+}
