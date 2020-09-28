@@ -1,0 +1,60 @@
+:root {
+
+--Amarillo: #EAC926;
+--Azul:#03264C;
+--Celeste:#1259c3;
+--gOscuro:#666;
+--gClaro:#ebebeb;
+--verde:#39b54a;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gClaro);
+
+}
+
+#amarillo{
+    background-color: var(--Amarillo);
+}
+
+p{
+font-size: 12px;
+
+}
+
+.titulares{
+    font-size: 24px;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+.descuentos{
+  color: var(--verde);
+  font-size: 16px;  
+  font-weight: normal;
+}
+
+.descripciones{
+    font-size: 16px;  
+    color: var(--gOscuro);
+    
+  }
+
+  article{
+      background-color: white;
+  }
+
+.fa-truck{
+color: var(--verde)
+  }
+
+  footer .fas{
+      color: var(--Celeste);
+  }
+
+ul .fas{
+    display: inline-block;
+}
