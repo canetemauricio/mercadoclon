@@ -16,6 +16,13 @@ app.get('/registro', function(req,res){
     
     })
 
+    app.get('/login', function(req,res){
+
+        let file= path.resolve('public/vistas/login.html')
+            res.sendFile(file)
+        
+        })
+
 
 app.get('*', function(req,res){
 

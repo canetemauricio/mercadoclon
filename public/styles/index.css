@@ -11,11 +11,15 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--gClaro);
+    line-height: 12px;
+    margin: 10px;
+    padding: 0;
 
 }
 
-#amarillo{
+header{
     background-color: var(--Amarillo);
+    padding: 0;
 }
 
 p{
@@ -40,12 +44,18 @@ font-size: 12px;
 .descripciones{
     font-size: 16px;  
     color: var(--gOscuro);
+    font-weight: normal;
     
   }
 
-  article{
-      background-color: white;
-  }
+.producto{
+    background-color: white;
+}
+
+footer{
+    background-color:white;
+}
+
 
 .fa-truck{
 color: var(--verde)
@@ -53,6 +63,10 @@ color: var(--verde)
 
   footer .fas{
       color: var(--Celeste);
+  }
+
+  .footerArticle{
+      text-align: center;
   }
 
 ul .fas{
